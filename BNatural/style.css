@@ -1,0 +1,137 @@
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+/*global*/
+/*header, section, div, p, li, {
+	margin:0;
+	padding: 0;
+	border-width: 0;
+}*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    padding:0;
+    margin: 0;
+}
+/*header*/
+header{
+    margin:0;
+    background:#d4c5009c;
+  /*color:#ffffff;*/
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#e8491d 3px solid;
+}
+header a{
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float:left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header nav{
+    margin-top:90px;
+}
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/*logo*/
+header img , img{
+    float:left;
+	max-width: 100%;
+	/*background-color: orange;*/
+	height: 200px;
+	width: 500px;
+    text-align: center;
+}
+
+
+/*navigation*/
+/*nav {
+	margin-left: 30%;
+}
+nav.sitenavigation li, nav.sitenavigation a{
+	display: inline-block;
+	text-align: center;
+	margin: 0;
+	text-decoration: none;
+	padding-left: 2em;
+
+}
+*/
+#space {
+    min-height: 400px;
+    background: url('firstImage.jpeg') no-repeat center;
+background-position: 0 -200px;
+background-size: cover;
+}
+#love{
+    min-height: 400px;
+    background: url('2ndImage.jpeg') no-repeat center;
+background-position: 0 -200px;
+background-size: cover;
+}
+}
+/*showcase*/
+#showcase {
+    text-align: center;
+min-height: 400px;
+font-size: 20px;
+font-weight: bold;
+color: #265d5a;
+
+/*background: #265d5a;*/
+}
+#showcase h1{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
+    color: #265d5a;
+
+    
+}
+#showcase p{
+    text-align: center;
+    line-height: 55px;
+    color: #265d5a;
+}
+
+#offerings {
+min-height: 400px;
+text-align: center;
+/*background: url('2ndImage.jpeg') no-repeat center;
+background-position: 0 -200px;
+background-size: cover;*/
+color: #265d5a;
+}
+#offerings h1{
+    margin-top: 100px;
+    font-size: 25px;
+}
+#offerings p{
+    line-height: 55px;
+}
+
+/*footer*/
+footer {
+    margin: 0;
+    padding: 0;
+     background:#d4c5009c;
+}
+footer p{
+    margin: 0;
+}
